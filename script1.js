@@ -1,3 +1,15 @@
+/**
+ * Unit Converter
+ * =================
+ *
+ * Developed by Rashida and Alhassan
+ *
+ * Description: A simple unit converter tool
+ *
+ * @author Rashida and Alhassan
+ * @version 1.0
+ */
+
 const conversionFactors = {
     length: {
         cm: { cm: 1, m: 0.01, in: 0.393701, ft: 0.0328084 },
@@ -41,4 +53,3 @@ function convert() {
 
     document.getElementById("result").textContent = `${input} ${fromUnit} is equal to ${result} ${toUnit}`;
 }
-
